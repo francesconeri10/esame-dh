@@ -1,0 +1,413 @@
+<DOCYPE! html>
+<html lang="it">
+<head>
+	<title>MIGRARTE</title>
+	<!-- metadati charset e viewport--> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- css di bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- foglio di stile -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- font di google per titolo sito -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body id="testi">
+	<header>
+		<!-- navbar -->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light">
+		  	<a class="navbar-brand" href="#">MIGRARTE</a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  	</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      	<li class="nav-item active">
+			        	<a class="nav-link" href="index.html" title="Home">Home<span class="sr-only">(current)</span></a> <!-- current? -->
+			      	</li>
+			      	<li class="nav-item">
+			        	<a class="nav-link" href="#idea" title="Introduzione al progetto">L'idea</a>
+			      	</li>
+			      	<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Catalogo Testi">
+			          Catalogo Testi
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          		<a class="dropdown-item" href="catalogo-testi.html" title="Tutti i testi">Tutti i testi</a>
+			          		<div class="dropdown-divider"></div>
+			          		<a class="dropdown-item" href="#">Luoghi</a>
+			          		<a class="dropdown-item" href="#">Persone</a>
+			        	</div>
+			      	</li>
+			      	<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Catalogo Media">
+			          Catalogo Media
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          		<a class="dropdown-item" href="catalogo-media.html" title="Tutti gli item">Tutti i media</a>
+			          	<div class="dropdown-divider"></div>
+			          		<a class="dropdown-item" href="#">Luoghi</a>
+			          		<a class="dropdown-item" href="#">Persone</a>
+			        	</div>
+			      	</li>
+			      	<li class="nav-item">
+			        	<a class="nav-link">|</a>
+			      	</li>
+			      	<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Community
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          		<a class="dropdown-item" href="#">
+			          			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+								  	<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+								</svg>
+							</a>
+			          		<a class="dropdown-item" href="#">
+			          			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+									<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+								</svg>
+							</a>
+			        	</div>
+			      	</li>
+			      <!-- scrivici -->
+			      	<li class="nav-item dropdown">
+			      		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contatti
+			      		</a>
+			      		<div class="dropdown-menu">
+					  		<form class="px-2 py-2">
+					    	<div class="form-group">
+					      		<label for="exampleDropdownFormEmail1">Nome e Cognome</label>
+					      		<input class="form-control" id="exampleDropdownFormEmail1">
+					    	</div>
+					    	<div class="form-group">
+					      		<label for="exampleDropdownFormPassword1">Indirizzo e-mail</label>
+					      		<input type="email" class="form-control" id="exampleDropdownFormPassword1">
+					    	</div>
+					    	<div class="form-group"> <!-- il box deve essere più grande, non si legge la scritta -->
+					      		<label for="exampleDropdownFormPassword1">Scrivi qui</label>
+					      		<input class="form-control" id="exampleDropdownFormPassword1" placeholder="Scrivi qua">
+					    	</div>
+					    	<button type="submit" class="btn">Invia</button>
+					  		</form>
+						</div>		        		      
+			      	</li>		      
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      	<input class="form-control mr-sm-2" type="search" placeholder="Cerca" aria-label="Cerca"> <!-- my my-lg mr-sm -->
+			      	<button class="btn my-2 my-sm-0" type="submit">Cerca</button>
+			    </form>
+			</div>
+		</nav>
+
+		<!-- titolo -->
+		<div class="container-fluid p-3 catalogo">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Catalogo Testi</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  	<ol class="breadcrumb bg-transparent">
+		    	<li class="breadcrumb-item"><a href="index.html" title="Torna alla Home">Home</a></li>
+		    	<li class="breadcrumb-item active " aria-current="page">Tutti i testi</li>
+		  	</ol>
+		</nav>
+
+	</header>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<!-- aside sinistro -->
+			<div class="col-md-2 ">
+				<h4 >Riordina il catalogo:</h4>
+				<div class="row pl-2">	
+					<button type="button" class="btn btn-light active ml-2">A-Z</button>
+				</div>
+				<div class="row pl-2">	
+					<button type="button" class="btn btn-light ml-2 mt-2">Z-A</button>
+				</div>
+				<div class="row pl-2">	
+					<button type="button" class="btn btn-light ml-2 mt-2">Ordine cronologico</button>
+				</div>	
+			</div>
+
+
+			<div class="col-md-9">
+				<!-- filtri -->
+				<div class="row">
+					<div class="col-md-12 filtri">
+						<div class="row">
+
+							<div class="dropdown pb-4 pr-4">
+							 	<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Editore</button>
+							  	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  		<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										<label class="form-check-label" for="defaultCheck1">Einaudi, Torino</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Giunti, Firenze</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Lupetti e Fabiani, Milano - L'Aquila</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Ed. Ca' Foscari, Venezia</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Fefè, Roma</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">ombre corte, Verona</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="dropdown pb-4 pr-4">
+							  	<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tipologia testuale</button>
+							  	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  		<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Narrativa</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Saggistica</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Poesia</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Teatro</label>
+									</div>
+							  	</div>
+							</div>
+
+							<div class="dropdown pb-4 pr-4">
+							  	<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luogo</button>
+							  	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  		<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Somalia</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Stati Uniti</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Italia</label>
+									</div>
+									<div class="form-check">
+								  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  		<label class="form-check-label" for="defaultCheck1">Congo</label>
+							  		</div>
+							  	</div>	
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- item -->
+					<div class="row">
+						<div class="card-deck">
+
+							<div class="card">
+							  	<img src="immagini/timira-wuming2.jpg" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Timira, Romanzo Meticcio</h5>
+							    	<br>
+							    	<p class="card-text"><span>Autore</span><a href="https://viaf.org/viaf/1050162669710555500003/">Wu Ming 2<sup>VIAF</sup></a>, <a href="http://worldcat.org/identities/viaf-295566444/">Antar Mohamed<sup>Worldcat</sup></a></p>
+							    	<p class="card-text"><span>Anno edizione:</span> 2012</p>
+							    	<p class="card-text"><span>Editore:</span><a href="#" title="Einaudi, Torino">Einaudi, Torino</a></p>
+							  	</div>
+							  	<div class="card-body">
+							  		<div class="row">
+							    		<a href="item-testo.html" class="btn btn-dark ml-4">Vai alla scheda</a>
+							    		<a href="testo.xml" target="_blank" class="btn btn-dark ml-4">Metadati</a> 
+							    	</div>  
+							  	</div>
+							</div>
+								
+							<div class="card">
+							  	<img src="immagini/scegolineadelcolore.jpg" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<h5 class="card-title">La linea del colore</h5>
+							    	<br>
+							    	<p class="card-text"><span>Autore</span><a href="http://viaf.org/viaf/90983724">Igiaba Scego<sup>VIAF</sup></a></p>
+							    	<p class="card-text"><span>Anno edizione:</span>2020</p>
+							    	<p class="card-text"><span>Editore:</span><a href="#" title="Giunti, Firenze">Giunti, Firenze</a></p>
+							  	</div>
+							  	<div class="card-body">
+							  		<div class="row">
+							    		<a href="#" class="btn btn-dark ml-4">Vai alla scheda</a>
+							    		<a href="#" class="btn btn-dark ml-4">Metadati</a>
+							    	</div> 
+							  	</div>
+							</div>
+						
+							<div class="card">
+							  	<img src="immagini/bakonga-gangbo.jpg" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Verso la notte Bakonga</h5>
+							    	<br>
+							    	<p class="card-text"><span>Autore</span>Jadelin M. Gangbo</p>
+							    	<p class="card-text"><span>Anno edizione:</span>1999</p>
+							    	<p class="card-text"><span>Editore:</span><a href="#" title="Lupetti e Fabiani, Milano - L'Aquila">Lupetti e Fabiani, Milano - L'Aquila</a></p>
+							   	</div>
+							  	<div class="card-body">
+							  		<div class="row">
+							    		<a href="#" class="btn btn-dark ml-4">Vai alla scheda</a>
+							    		<a href="#" class="btn btn-dark ml-4">Metadati</a>
+							    	</div> 
+							  	</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="row pt-3">
+						<div class="card-deck">
+							
+							<div class="card">
+							  	<img src="immagini/scriverediislam-brioni.jpg" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Scrivere di islam, Raccontare la diaspora</h5>
+							    	<br>
+							    	<p class="card-text"><span>Autore</span>Simone Brioni, Shirin Ramzanali Fazel</p>
+							    	<p class="card-text"><span>Anno edizione:</span>2020</p>
+							    	<p class="card-text"><span>Editore:</span><a href="#" title="Ed. Ca' Foscari, Venezia">Ed. Ca' Foscari, Venezia</a></p>
+							  	</div>
+							  	<div class="card-body">
+							  		<div class="row">
+							    		<a href="#" class="btn btn-dark ml-4">Vai alla scheda</a>
+							    		<a href="#" class="btn btn-dark ml-4">Metadati</a>
+							    	</div>
+							  	</div>
+							</div>
+								
+							<div class="card">
+							  	<img src="immagini/afrofobia-valeri.jpg" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Afrofobia, Razzismi vecchi e nuovi</h5>
+							    	<br>
+							    	<p class="card-text"><span>Autore</span>Mauro Valeri</p>
+							    	<p class="card-text"><span>Anno edizione:</span>2019</p>
+							    	<p class="card-text"><span>Editore:</span><a href="#" title="Fefè, Roma">Fefè, Roma</a></p>
+							  	</div>
+							  	<div class="card-body">
+							  		<div class="row">
+							    		<a href="#" class="btn btn-dark ml-4">Vai alla scheda</a>
+							    		<a href="#" class="btn btn-dark ml-4">Metadati</a>
+							    	</div> 
+							  	</div>
+							</div>
+								
+							<div class="card">
+							  	<img src="immagini/parlaredirazza-scacchi.jpg" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<h5 class="card-title">Parlare di razza, La lingua del colore tra Italia e Stati Uniti</h5>
+							    	<br>
+							    	<p class="card-text"><span>Autore</span>Tatiana Petrovich Njegosh, Anna Scacchi</p>
+							    	<p class="card-text"><span>Anno edizione:</span>2012</p>
+							    	<p class="card-text"><span>Editore:</span><a href="#" title="ombre corte, Verona">ombre corte, Verona</a></p>
+							    </div>	
+							    <div class="card-body">
+							  		<div class="row">
+							    		<a href="#" class="btn btn-dark ml-4">Vai alla scheda</a>
+							    		<a href="#" class="btn btn-dark ml-4">Metadati</a>
+							    	</div> 
+							  	</div>
+							</div>
+						
+						</div>
+					</div>
+
+			</div>
+
+			<!-- aside destro -->
+			<div class="col-md-1">			
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- pagination -->
+	<nav aria-label="Page navigation example" class="mt-4">
+	  	<ul class="pagination justify-content-center">
+	    	<li class="page-item">
+	      		<a class="page-link" href="#" aria-label="Previous">
+	        		<span aria-hidden="true">&laquo;</span>
+	      		</a>
+	    	</li>
+	    	<li class="page-item active"><a class="page-link" href="#">1</a></li>
+	    	<li class="page-item"><a class="page-link" href="#">2</a></li>
+	    	<li class="page-item"><a class="page-link" href="#">3</a></li>
+	    	<li class="page-item">
+	      		<a class="page-link" href="#" aria-label="Next">
+	        		<span aria-hidden="true">&raquo;</span>
+	      		</a>
+	    	</li>
+	  	</ul>
+	</nav>
+
+	<!-- footer -->
+	<footer>
+		<div class="info container-fluid p-3">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>MIGRARTE</h3>
+						<p>Il progetto è stato realizzato per la prova finale del corso di <em>Digital Humanities e Patrimonio Culturale</em>, a.a. 2020/2021, nell'ambito della laurea magistrale in Arti Visive presso l'Università di Bologna.</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Contatti</h3>
+						<p><a href="https://www.unibo.it/it" target="_blank">Alma Mater Studiorum Università di Bologna</a></p>
+						<p><a href="https://corsi.unibo.it/magistrale/artivisive" target="_blank">Dipartimento di Arti Visive</a></p>
+						<p><a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/423307" target="_blank">Digital Humanities e Patrimonio Culturale</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Licenze</h3>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+						<br>
+						<p class="mt-3">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+					</div>
+				</div>
+				<div class="row p-3">
+					<a href="#titolo">
+						<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-light">
+            <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2022 Francesco Neri - Dipartimento di Arti Visive, Università di Bologna.</p>
+        </div>
+	</footer>
+
+	<!-- js di bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>

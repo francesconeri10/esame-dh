@@ -1,0 +1,86 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>Timira, Romanzo meticcio</title>
+				<author>Wu Ming 2</author>
+				<author>Antar Mohamed</author>
+				<respStmt>
+					<resp>codifica TEI</resp>
+					<name xml:id="FN">Francesco Neri</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition n="1.0">
+					<title>Prima edizione</title>
+					<date when="2012">aprile 2012</date>
+				</edition>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>Einaudi</publisher>
+				<adress>
+					<street>Via Biancamano 2</street>
+					<postCode>10121</postCode>
+					<name>Torino</name>
+					<name>Italia</name>
+				</adress>
+				<idno type="ISBN">9788806205928</idno> 
+			</publicationStmt>
+
+			<sourceDesc>
+				<bibl><author>Wu Ming 2</author>, <author>Antar Mohamed</author>, <title>Timira, Romanzo Meticcio</title>,<pubPlace>Torino</pubPlace>:<publisher>Einaudi</publisher>, <date when="2012">2012</date> - <extent>525 p.</extent>.
+				</bibl>
+			</sourceDesc>
+
+		</fileDesc>
+	</teiHeader>
+
+	<text>
+		<front>
+			<div type="preface">
+				<p>Questa è una storia vera...</p>
+				<p>...comprese le parti che non lo sono</p>	
+			</div>				
+		</front>
+
+		<body>
+
+			<div type="section" n="1">
+				<head>Preludio</head>
+				<head type="subTitle">Lettera intermittente n.1</head>
+				<p><name type="place">Bologna</name>, <date when="2011/09/07">7 settembre 2011</date></p>
+				<p>Cara <name type="person">Isabella</name>, sono passati molti mesi dall'ultima volta che ci siamo visti. Li conto sulle dita e sono già diciotto, un anno e mezzo pieno di rivolta e di quello che si usa chiamare la Storia, per poi convincersi che sia un pezzo di carta, o di marmo, e non di vita.</p>
+				<p>Gli astronomi hanno scoperto una stella dieci milioni di volte più luminosa del sole. Al tempo dei re babilonesi, le avrebbero dato il nome di un dio terribile e smisurato. Al tempo delle agenzie di rating, l’hanno battezzata con una sigla: R136a1.</p> 
+				<p>Sono morti 
+					<name type="person">
+						<choice resp="#FN">
+							<abbr type="contraction">J.</abbr>
+							<expan>Jerome</expan>
+						</choice>
+						<choice resp="#FN">	
+							<abbr type="contracion">D.</abbr>
+							<expan>David</expan>
+						</choice>
+				Salinger</name>, <name type="person">Mario Monicelli</name> e <name type="person">Osama bin Laden</name>. Sono nati, secondo le statistiche, centonovantotto milioni e mezzo di esseri umani.</p>
+				<p>È nata pure una nuova nazione, la <name type="place">Repubblica del Sud Sudan</name>, ma l'oroscopo dice che si ammalerà presto, ubriaca di petrolio. Come il <name type="place">Golfo del Messico</name>, che ha dovuto sorbire in diretta tivù cinquecento milioni di litri di greggio, serviti dalla piattaforma Deepwater Horizon. O come il <name type ="place">Delta del Niger</name>, dove la sbornia nera uccide ogni giorno, senza lambire gli schermi del mondo.</p>
+				<p>Un terremoto di magnitudo 9 ha cancellato in <name type="place">Giappone</name> intere città. L'onda di tsunami e le macerie dei sopravvissuti ci hanno riempito gli occhi per settimane, risvegliando la falsa memoria di catastrofi già dimenticate. La scossa ha danneggiato i reattori di una centrale nucleare e nessuno sa dire quanto dureranno gli effetti delle radiazioni in fuga. Tra diecimila anni, tonnellate di scorie radiotossiche saranno forse l'unica traccia rimasta della nostra civiltà. Chissà se i terrestri del futuro ci chiameranno pazzi o terroristi. </p>
+			</div>
+
+			<div type="section" n="2">
+				<head>Prima parte</head>
+				<p><quote>Non fai una storia per avere vendetta, ma per mettere radici.</quote><name type="person"><bibl>Ousmane Sembène</bibl></name></p>
+				<p>
+					<graphic url="https://images.app.goo.gl/kC6QFmTbkyxZtc8w7"/>
+				</p>
+				<head>Uno</head>
+				<head type="subTitle">Agenda <date when="1991">1991</date> di <name type="person">Isabella Marincola</name></head>
+				<p><date when ="1991/1/1">Martedì, 1 gennaio</date></p>	
+				<p>Era nell'aria da tempo, eppure sembrava impossibile. Le radio straniere, nei programmi per la <name type="place">Somalia</name>, trasmettevano interviste con i rappresentanti all'estero delle forze ribelli: Somali Salvation Democratic Front, United Somali Congress, Somali National Movement. Radio Boscaglia, come chiamiamo qui le dicerie senza controllo, prevedeva la guerra, ma intanto nei corpi lievitava l'apatia, l'indifferenza dello schiavo che si appresta a cambiare padrone. Solo i manutengoli del Vecchio fiutavano l'aria come cani da preda preoccupati di diventare selvaggina.</p>
+			</div>
+
+		</body>
+	</text>
+</TEI>

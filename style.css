@@ -1,0 +1,257 @@
+a {
+	text-decoration: none;
+	color: #9c682d;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #3b250c;
+}
+
+article .container {
+	background-color: #ffffd9;
+}
+
+article h4 {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	padding: 15px;
+}
+
+article a {
+	color: white;
+}
+
+article a:hover {
+	color: #808080;
+}
+
+aside .card {
+	height: 330px;
+	font-size: 14px;
+}
+
+aside .card-title {
+	font-weight: bold;	
+}
+
+aside .container {
+	background-color: #ffffd9;
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 16px;
+}
+
+footer a {
+	color: 	#F5F5F5;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #808080;
+}
+
+footer h3 {
+	color:  white;
+	text-align: center;
+}
+
+footer .info {
+	background-color: #101010;
+	color: 	#F5F5F5;
+	text-align: justify;
+}
+
+h2 {
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+nav .breadcrumb {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+section .card-title {
+	font-size: 30px;
+}
+
+.bottone {
+	width: 170px;
+	margin-left: -130px;	
+}
+
+.copertina img {
+	height: auto;
+	width: 100%;
+}
+
+.catalogo {
+    background-color: #ffffd9;	
+}
+
+.card span {
+	display: inline-block;
+	width: 250px;
+	font-weight: bold;
+}
+
+.carousel img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 100% 0;
+}
+
+.carousel-caption {
+	background-color: rgba(26, 26, 26, .7); 
+	left: 0; 
+	right: 0; 
+	width: 100%;
+}
+
+.carousel-caption h5 {
+	padding: 5px;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.filtri .btn {
+	background-color: #9c682d;
+	color:  white;
+}
+
+.form-check {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.media img {
+	width: 25%;
+	height: 25%;
+	border-radius: 6px;
+}
+
+.media {
+	font-size: 13px;
+	text-align: left;
+}
+
+.navbar {
+    background-color: #ffffa3;
+}
+
+.navbar-brand {
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+}
+
+.navbar .btn {
+	background-color: #9c682d;
+	color:  white;
+}
+
+.opere img {
+	object-fit: contain;
+	object-position: center;
+}
+
+.opere h5 {
+	font-size: 16px;
+}
+
+.page-item.active .page-link {
+	color: #3b250c; 
+	border-color: #ffffa3; 
+	background-color: #ffffa3;
+}
+
+.page-link {
+	color: #3b250c
+}
+
+.page-link:hover {
+	background-color: #ffffd9;
+	border-color: #ffffd9;
+	color: #3b250c	
+}
+
+.pulsanti .btn {
+	background-color: #9c682d;
+	color: white;
+}
+
+.suggerimenti {
+	background-color: #ffffd9;
+	padding: 30px;
+	text-align: justify;
+}
+
+.idea, .cataloghi {
+	background-color: #ededed;
+	padding: 30px;
+	text-align: justify;
+}
+
+#carouselExampleCaptions {
+	height: 440px;
+}
+
+#carouselExampleIndicators {
+	height: 500px;
+}
+
+#carouselExampleSlidesOnly .carousel-item {
+	height: 500px; 
+}
+
+#descrizione a, #descrizione a:hover{
+	color: white;
+	text-decoration: underline;
+	float: right;
+}
+
+#testo, #persona, #multimedia, #testi {
+	background-color: #ededed;
+}
+
+#persona .carousel img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;	
+}
+
+#titolo {
+	padding:30px;
+	background-color: #ffffd9;
+}
+
+#titolo h1 {
+	color: black;
+	font-family: 'Cinzel', serif;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+}
+
+#testi .card-title, #multimedia .card-title {
+	height: 80px;
+	font-size: 18px;
+	font-style: italic;
+	padding-top: 25px;
+}
